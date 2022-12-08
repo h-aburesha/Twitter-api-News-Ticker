@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding: 10;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+    background-color: beige;
+}
+
+em {
+    color: goldenrod;
+    font-weight: bold;
+}
+
+#headlines {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    white-space: nowrap;
+    left: 95%;
+}
+
+#ticker {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    border: double 3px white;
+    overflow-x: hidden;
+    background-color: #221e1f;
+    box-shadow: 1px 0px 25px 6px rgb(154 154 154 / 79%);
+}
+
+a {
+    padding-right: 17px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: helvetica;
+    font: lighter 36pt;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: lightblue;
+}
